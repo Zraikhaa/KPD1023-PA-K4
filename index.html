@@ -52,6 +52,7 @@
         text-decoration: none;
         display: block;
         padding: 15px;
+        color: white;
       }
       .nav li:hover {
         background: antiquewhite;
@@ -77,11 +78,30 @@
         background-color: gray;
       }
       table {
+        margin-left: 700px;
         background-color: white;
         border: 5px solid lightgray;
         text-align: center;
         width: 500px;
         margin-top: 20px;
+      }
+      .white {
+        background-color: rgb(255,255,255)
+      }
+      .white {
+        background-color: rgb(255,255,255)
+      }
+      .gold {
+        background-color: rgb(255,215,0)
+      }
+      .silver {
+        background-color: rgb(192,192,192)
+      }
+      .brown {
+        background-color: rgb(165,42,42)
+      }
+      .lightgreen {
+        background-color: rgb(144, 238, 144)
       }
       .slider {
         background-color: white;
@@ -108,10 +128,10 @@
         BERITA HARIAN
       </div>
       <div class="social-icon">
-        <img src="images/facebook.png">
-        <img src="images/twitter.png">
-        <img src="images/instagram.png">
         <img src="images/youtube.png">
+        <img src="images/instagram.jpg">
+        <img src="images/twitter.png">
+        <img src="images/facebook.png">
       </div>
     </div>
 
@@ -134,6 +154,15 @@
     <div class="content">
       <marquee direction="up">
         <table border="2">
+          <colgroup>
+            <col class="white" />
+            <col class="white" />
+            <col class="gold" />
+            <col class="silver" />
+            <col class="brown" />
+            <col class="lightgreen" />
+          </colgroup>
+          <thead>
             <tr>
                <th>Bil</th>
                <th>Negara</th>
@@ -176,14 +205,14 @@
             </tr>
         </table>
       </marquee>
-      
+      <br>
       <!--Slider-->
       <div class="slider">
       <marquee direction="left">
-        <img src=images/football.png>
-        <img src=images/rugby.png>
-        <img src=images/netball.png>
-        <img src=images/swimming.png>
+        <img src="images/football.png"><font>Bola Sepak</font>
+        <img src="images/rugby.png"<font>Ragbi</font>
+        <img src="images/netball.png"<font>Bola Jaring</font>
+        <img src="images/swimming.png"<font>Berenang</font>
       </marquee>
      
     <!--Footer-->
@@ -192,4 +221,3 @@
     </div>
   </body>
 </html>
-© 2021 GitHub, Inc.
